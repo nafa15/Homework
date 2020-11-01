@@ -7,19 +7,17 @@ public class anangram {
 
     public static void main(String[] args) {
 
-        String code = "CODE1234";
-
         Scanner scanner = new Scanner(System.in);
-        System.out.println("The code we sent you:");
+        System.out.println("insert first word : ");
+        String code1 = scanner.nextLine();
+        System.out.println("insert second word : ");
         String code2 = scanner.nextLine();
-        System.out.println("The code we have: "+code);
-        System.out.println("Decision:");
 
-        boolean anangram = check(code, code2);
+        boolean anangram = check(code1, code2);
         if (anangram){
-            System.out.println("Permitted.");
+            System.out.println(" words are anangram");
         } else {
-            System.out.println("Sorry, you're not permitted.");
+            System.out.println("Sorry, words aren't anangram");
         }
         scanner.close();
     }
