@@ -1,0 +1,5 @@
+anagrams
+duplicated words
+enumerator
+revered data
+

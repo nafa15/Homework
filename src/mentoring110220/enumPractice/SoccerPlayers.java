@@ -6,4 +6,6 @@ package mentoring110220.enumPractice;
 public enum SoccerPlayers {
 
     Cech, JohnTerry, Lampard, Drogba, AshleyYoung,
+
+    // we need to create a soccer team with this player. each player has a position
 }

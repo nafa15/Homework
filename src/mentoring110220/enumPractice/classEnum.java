@@ -7,7 +7,8 @@ enum Lights{
 public class classEnum {
     public static void main(String[] args) {
 
-        Lights whatToDo = Lights.Green;
+       Lights whatToDo = Lights.Green;
+
 
         switch (whatToDo){
             case Green:

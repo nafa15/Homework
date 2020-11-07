@@ -4,10 +4,18 @@ public class ReverseData2 {
 
     public static void main(String[] args) {
 
-        String palindrome ="no le mon, no mel on";
+        String palindrome ="no le mon, no mel on";  // 12321
 
-        StringBuffer stringBuffer = new StringBuffer(palindrome);
-        System.out.println(stringBuffer.reverse());
+//        StringBuffer stringBuffer = new StringBuffer(palindrome);
+//        System.out.println(stringBuffer.reverse());
+//
+
+        StringBuilder stringBuilder = new StringBuilder(palindrome);
+
+        System.out.println(stringBuilder.reverse());
+
+
+
 
 
     }
