@@ -1,4 +1,4 @@
-package HW102020.encapsulation;
+package hw102020.encapsulation;
 
 public class Players {
 
@@ -6,32 +6,30 @@ public class Players {
     private String playerPosition;
     private int playerNumber;
 
+    // getter method
+    public String getPlayerName() {
+        return playerName;
+    }
 
-                    // setter method
+    // setter method
     public void setPlayerName(String playerName) {
         this.playerName = playerName;
     }
 
-    public void setPlayerNumber(int playerNumber) {
-        this.playerNumber = playerNumber;
+    public String getPlayerPosition() {
+        return playerPosition;
     }
 
     public void setPlayerPosition(String playerPosition) {
         this.playerPosition = playerPosition;
     }
 
-
-                    // getter method
-    public String getPlayerName(){
-        return playerName;
-    }
-
-    public String getPlayerPosition(){
-        return playerPosition;
-    }
-
-    public int getPlayerNumber(){
+    public int getPlayerNumber() {
         return playerNumber;
+    }
+
+    public void setPlayerNumber(int playerNumber) {
+        this.playerNumber = playerNumber;
     }
 }
 

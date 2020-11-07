@@ -1,4 +1,4 @@
-package HW101720;
+package hw101720;
 
 public class Loop {
 
@@ -8,11 +8,11 @@ public class Loop {
         }
 
         for (int b = 1; b < 5; b++) {
-            System.out.println("Team "+b);
+            System.out.println("Team " + b);
         }
 
-        for (int c = 3; c > 1; c--){
-            System.out.println("Referee "+c);
+        for (int c = 3; c > 1; c--) {
+            System.out.println("Referee " + c);
         }
     }
 }

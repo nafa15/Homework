@@ -9,9 +9,9 @@ public class Positions {
         this.soccerPlayers = soccerPlayers;
     }
 
-    public void whereToPosition(){
+    public void whereToPosition() {
 
-        switch (soccerPlayers){
+        switch (soccerPlayers) {
             case Cech:
                 System.out.println("Goal keeper");
                 break;

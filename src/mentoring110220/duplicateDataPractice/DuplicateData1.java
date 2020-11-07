@@ -13,23 +13,20 @@ public class DuplicateData1 {
         String[] splittedData = proverb.split(" ");      // 1 --> split the string into substrings based on a delimiter ( in this case it's a space)
 
 
-
         HashMap<String, Integer> appearance = new HashMap<>();    // 2 --> we create a HashMap to present every substring with the times it duplicates
 
-        for ( int n = 0; n < splittedData.length; n++ ) {          // 3 --> loop to find how many times EACH word is duplicated
+        for (int n = 0; n < splittedData.length; n++) {          // 3 --> loop to find how many times EACH word is duplicated
             Integer prevCount = appearance.get(splittedData[n]);
-            if (prevCount == null){
+            if (prevCount == null) {
                 prevCount = 0;
             }
-            appearance.put( splittedData[n], prevCount + 1);
+            appearance.put(splittedData[n], prevCount + 1);
         }
         System.out.println(appearance);
-      //  System.out.println(appearance.get("Life"));
-
+        //  System.out.println(appearance.get("Life"));
 
 
     }
-
 
 
 }

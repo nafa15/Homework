@@ -1,16 +1,16 @@
 package mentoring110220.enumPractice;
 
-enum Lights{
+enum Lights {
     Green, Yellow, Red, Blue,
 }
 
 public class classEnum {
     public static void main(String[] args) {
 
-       Lights whatToDo = Lights.Green;
+        Lights whatToDo = Lights.Green;
 
 
-        switch (whatToDo){
+        switch (whatToDo) {
             case Green:
                 System.out.println("Pass");
                 break;
@@ -24,7 +24,6 @@ public class classEnum {
                 System.out.println("Error");
         }
     }
-
 
 
 }

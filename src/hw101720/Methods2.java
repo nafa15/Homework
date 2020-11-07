@@ -1,4 +1,4 @@
-package HW101720;
+package hw101720;
 
 public class Methods2 {
 
@@ -12,6 +12,7 @@ public class Methods2 {
 
 
     }
+
     public static void printTotalPlayers() {
         System.out.println(22);
     }

@@ -1,4 +1,4 @@
-package HW102420;
+package hw102420;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ScannerArray2 {
     public static void main(String[] args) {
 
-        ArrayList<String> menu= new ArrayList<>();
+        ArrayList<String> menu = new ArrayList<>();
 
         menu.add("Burgers");
         menu.add("Chickenbowl");
@@ -15,7 +15,7 @@ public class ScannerArray2 {
         menu.add("Steak");
         menu.add("Veggie");
 
-        ArrayList<String> names2= new ArrayList<>();
+        ArrayList<String> names2 = new ArrayList<>();
         names2.add("Rahat");
         names2.add("Mike");
         names2.add("Abir");
@@ -23,13 +23,13 @@ public class ScannerArray2 {
         names2.add("Touhid");
 
         Random random = new Random();
-        int j= random.nextInt(menu.size());
-        int k= random.nextInt(names2.size());
+        int j = random.nextInt(menu.size());
+        int k = random.nextInt(names2.size());
 
-        Scanner scanner= new Scanner(System.in);
-        String user1= scanner.nextLine();
+        Scanner scanner = new Scanner(System.in);
+        String user1 = scanner.nextLine();
         System.out.println(menu.get(j));
-       String user2= scanner.nextLine();
+        String user2 = scanner.nextLine();
         System.out.println(menu.get(j));
         /* String user3= scanner.nextLine();
         System.out.println(names2.get(k) +": "+ menu.get(j));
@@ -39,11 +39,7 @@ public class ScannerArray2 {
         System.out.println(names2.get(k)+": "+ menu.get(j));*/
 
 
-
-
         scanner.close();
-
-
 
 
     }

@@ -1,4 +1,4 @@
-package HW103120;
+package hw103120;
 
 import java.util.HashMap;
 
@@ -12,12 +12,12 @@ public class DuplicateWords {
 
         HashMap<String, Integer> appearance = new HashMap<>();
 
-        for ( int n = 0; n < splittedData.length; n++ ) {
+        for (int n = 0; n < splittedData.length; n++) {
             Integer prevCount = appearance.get(splittedData[n]);
-            if (prevCount == null){
+            if (prevCount == null) {
                 prevCount = 0;
             }
-            appearance.put( splittedData[n], prevCount + 1);
+            appearance.put(splittedData[n], prevCount + 1);
         }
         System.out.println(appearance);
         System.out.println(appearance.get("vie"));

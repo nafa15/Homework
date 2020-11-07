@@ -1,14 +1,15 @@
-package HW101720;
+package hw101720;
 
 public class Constructors1 {
 
     String model;
+
     public Constructors1(String modelOfConstructor) {
         this.model = modelOfConstructor;
     }
 
-    public static void main( String [] args) {
-        Constructors1 constructors1= new Constructors1("Ferrari");
+    public static void main(String[] args) {
+        Constructors1 constructors1 = new Constructors1("Ferrari");
         constructors1.printCar();
 
     }
@@ -16,7 +17,6 @@ public class Constructors1 {
     public void printCar() {
         System.out.println(model);
     }
-
 
 
 }

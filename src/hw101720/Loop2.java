@@ -1,4 +1,4 @@
-package HW101720;
+package hw101720;
 
 public class Loop2 {
 

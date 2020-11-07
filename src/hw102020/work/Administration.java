@@ -1,10 +1,10 @@
-package HW102020.work;
+package hw102020.work;
 
 public interface Administration {
 
-    public void director();
+    void director();
 
-    public void secretary();
+    void secretary();
 
-    public void manager();
+    void manager();
 }

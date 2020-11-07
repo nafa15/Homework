@@ -1,7 +1,6 @@
-package HW102420;
+package hw102420;
 
 import java.util.ArrayList;
-
 import java.util.Random;
 
 public class ScannerArray5 {
@@ -28,7 +27,7 @@ public class ScannerArray5 {
         int t = random.nextInt(names5.size());
 
         //for (int i = 0; i < names5.size(); i++) {
-            System.out.println(names5.get(t) + ": " + foodMenu5.get(s));
+        System.out.println(names5.get(t) + ": " + foodMenu5.get(s));
 
     }
 }

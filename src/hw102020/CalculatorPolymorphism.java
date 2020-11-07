@@ -1,4 +1,4 @@
-package HW102020;
+package hw102020;
 
 public class CalculatorPolymorphism {
 }

@@ -1,4 +1,4 @@
-package HW102020.inheritance;
+package hw102020.inheritance;
 
 public class C extends B {
 

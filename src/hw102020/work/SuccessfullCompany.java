@@ -1,4 +1,4 @@
-package HW102020.work;
+package hw102020.work;
 
 public class SuccessfullCompany extends Company implements Administration {
 

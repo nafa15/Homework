@@ -1,17 +1,17 @@
-package HW102020.encapsulation;
+package hw102020.encapsulation;
 
 public class Team {
 
     public static void main(String[] args) {
 
-                // First player
+        // First player
         Players p1 = new Players();
         p1.setPlayerName("Drogba");
         p1.setPlayerPosition("Forwarder");
         p1.setPlayerNumber(11);
 
-                // Second player
-        Players p2= new Players();
+        // Second player
+        Players p2 = new Players();
         p2.setPlayerName("Lampard");
         p2.setPlayerPosition("Midfielder");
         p2.setPlayerNumber(8);

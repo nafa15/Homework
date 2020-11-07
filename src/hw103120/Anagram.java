@@ -1,9 +1,9 @@
-package HW103120;
+package hw103120;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class anangram {
+public class Anagram {
 
     public static void main(String[] args) {
 
@@ -14,7 +14,7 @@ public class anangram {
         String code2 = scanner.nextLine();
 
         boolean anangram = check(code1, code2);
-        if (anangram){
+        if (anangram) {
             System.out.println(" words are anangram");
         } else {
             System.out.println("Sorry, words aren't anangram");
@@ -24,8 +24,8 @@ public class anangram {
 
     public static boolean check(String code, String code2) {
 
-        char[] first= code.toUpperCase().toCharArray();
-        char[] second= code2.toUpperCase().toCharArray();
+        char[] first = code.toUpperCase().toCharArray();
+        char[] second = code2.toUpperCase().toCharArray();
 
         Arrays.sort(first);
         Arrays.sort(second);

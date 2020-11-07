@@ -1,4 +1,4 @@
-package HW103120.enumPractice;
+package hw103120.enumPractice;
 
 public enum SoccerPlayers {
 

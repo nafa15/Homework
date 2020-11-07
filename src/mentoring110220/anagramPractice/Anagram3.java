@@ -16,11 +16,12 @@ public class Anagram3 {
 
 
     }
-    public static void isAnagram(String word1, String word2){
+
+    public static void isAnagram(String word1, String word2) {
 
 
-        char [] firstWord = word1.toLowerCase().toCharArray();
-        char [] secondWord = word2.toLowerCase().toCharArray();
+        char[] firstWord = word1.toLowerCase().toCharArray();
+        char[] secondWord = word2.toLowerCase().toCharArray();
 
 
         Arrays.sort(firstWord);
@@ -29,7 +30,7 @@ public class Anagram3 {
 
         boolean anagram = Arrays.equals(firstWord, secondWord);
 
-        if (anagram){
+        if (anagram) {
             System.out.println("Yes, they are.");
         } else {
             System.out.println("No, they are not.");

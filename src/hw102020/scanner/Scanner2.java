@@ -1,5 +1,4 @@
-package HW102020.scanner;
-
+package hw102020.scanner;
 
 
 import java.util.Scanner;
@@ -8,7 +7,7 @@ public class Scanner2 {
 
     public static void main(String[] args) {
 
-    Scanner2.footToMeter();
+        Scanner2.footToMeter();
     }
 
     public static void footToMeter() {

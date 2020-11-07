@@ -1,9 +1,9 @@
-package HW102020.work;
+package hw102020.work;
 
 public class Final {
 
     public static void main(String[] args) {
-        SuccessfullCompany successfullCompany= new SuccessfullCompany();
+        SuccessfullCompany successfullCompany = new SuccessfullCompany();
 
         successfullCompany.director();
         successfullCompany.manager();

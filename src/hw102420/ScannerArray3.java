@@ -1,13 +1,12 @@
-package HW102420;
+package hw102420;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class ScannerArray3 {
 
     public static void main(String[] args) {
 
-      //  String menu2= ("Burgers", "Burrito", "ChickenBowl", "Steak", "Veggie");
+        //  String menu2= ("Burgers", "Burrito", "ChickenBowl", "Steak", "Veggie");
 
         /*ArrayList<String> menu2= new ArrayList<>();
 
@@ -19,14 +18,12 @@ public class ScannerArray3 {
 
          */
 
-        HashMap<String, Integer> menu3= new HashMap<>();
+        HashMap<String, Integer> menu3 = new HashMap<>();
         menu3.put("Burgers", 1);
         menu3.put("Chickenbowl", 2);
         menu3.put("Burrito", 3);
         menu3.put("Steak", 4);
         menu3.put("Veggie", 5);
-
-
 
 
     }

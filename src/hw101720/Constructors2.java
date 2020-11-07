@@ -1,4 +1,4 @@
-package HW101720;
+package hw101720;
 
 public class Constructors2 {
 
@@ -14,17 +14,17 @@ public class Constructors2 {
         System.out.println(12);
     }
 
-    public static void printCarDetails(String nameOfBrand){
+    public static void printCarDetails(String nameOfBrand) {
         System.out.println(nameOfBrand);
     }
 
-    public static void printCarDetails( String nameOfBrand, String Model, String year) {
-        System.out.println(nameOfBrand+" "+Model+" "+year);
+    public static void printCarDetails(String nameOfBrand, String Model, String year) {
+        System.out.println(nameOfBrand + " " + Model + " " + year);
     }
 
     public static void printNumberofCylinders(int extraCylinder) {
-        int numberOfCylinders= 4;
-        int totalCylinders= numberOfCylinders + extraCylinder;
+        int numberOfCylinders = 4;
+        int totalCylinders = numberOfCylinders + extraCylinder;
         System.out.println(totalCylinders);
     }
 }

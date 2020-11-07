@@ -1,4 +1,4 @@
-package HW103120.fileReadPractice;
+package hw103120.fileReadPractice;
 
 public class FileUtils {
 

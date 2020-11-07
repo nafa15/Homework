@@ -1,7 +1,7 @@
 package mentoring110220.enumPractice;
 
-            // enum (enumerated type) is a set of  elements, members, or enumerators of the type.
-            // we use an enum when we need a predefined list of values.
+// enum (enumerated type) is a set of  elements, members, or enumerators of the type.
+// we use an enum when we need a predefined list of values.
 
 public enum SoccerPlayers {
 

@@ -1,4 +1,4 @@
-package HW102520;
+package hw102520;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ public class Connectivity {
             String team = resultSet.getString("team");
 
 
-            ArrayList<Object> player= new ArrayList<>();
+            ArrayList<Object> player = new ArrayList<>();
             player.add(number);
             player.add(name);
             player.add(position);

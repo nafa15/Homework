@@ -14,7 +14,7 @@ public class Anagram2 {
         String code2 = scanner.nextLine();
 
         boolean anagram = check(code1, code2);
-        if (anagram){
+        if (anagram) {
             System.out.println("Words are anagrams");
         } else {
             System.out.println("Words aren't anagrams");
@@ -24,8 +24,8 @@ public class Anagram2 {
 
     public static boolean check(String code, String code2) {
 
-        char[] first= code.toUpperCase().toCharArray();
-        char[] second= code2.toUpperCase().toCharArray();
+        char[] first = code.toUpperCase().toCharArray();
+        char[] second = code2.toUpperCase().toCharArray();
 
         Arrays.sort(first);
         Arrays.sort(second);

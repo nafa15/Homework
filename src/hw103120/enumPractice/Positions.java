@@ -1,16 +1,16 @@
-package HW103120.enumPractice;
-
-import HW102020.encapsulation.Players;
+package hw103120.enumPractice;
 
 public class Positions {
 
     private final SoccerPlayers soccerPlayers;
 
-    public Positions(SoccerPlayers soccerPlayers) { this.soccerPlayers = soccerPlayers;}
+    public Positions(SoccerPlayers soccerPlayers) {
+        this.soccerPlayers = soccerPlayers;
+    }
 
-    public void whereToPosition(){
+    public void whereToPosition() {
 
-        switch (soccerPlayers){
+        switch (soccerPlayers) {
             case Cech:
                 System.out.println("Goal keeper");
                 break;

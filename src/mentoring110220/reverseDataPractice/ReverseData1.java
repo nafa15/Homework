@@ -20,7 +20,6 @@ public class ReverseData1 {
         System.out.println(sentenceReversed);
 
 
-
     }
 
 

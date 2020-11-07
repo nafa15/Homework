@@ -1,4 +1,4 @@
-package HW102020.inheritance;
+package hw102020.inheritance;
 
 public class D extends C {
 
@@ -11,8 +11,6 @@ public class D extends C {
         d.fromA();
         d.fromB();
         d.fromC();
-
-
 
 
     }
